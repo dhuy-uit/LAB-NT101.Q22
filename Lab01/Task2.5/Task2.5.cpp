@@ -34,16 +34,23 @@ int main() {
     int choice;
     string text, key;
 
+    cout << "--- CHUONG TRINH MA HOA / GIAI MA VIGENERE ---\n";
+    cout << "Chon thao tac (1 - Ma hoa | 2 - Giai ma): ";
     cin >> choice;
     cin.ignore();
+
+    cout << "Nhap khoa (Key): ";
     getline(cin, key);
+
+    cout << "Nhap van ban (Text): ";
     getline(cin, text);
 
+    cout << "\n--- KET QUA ---\n";
     if (choice == 1) {
-        cout << processVigenere(text, key, true) << "\n";
+        cout << "Ciphertext: " << processVigenere(text, key, true) << "\n";
     }
     else if (choice == 2) {
-        cout << processVigenere(text, key, false) << "\n";
+        cout << "Plaintext: " << processVigenere(text, key, false) << "\n";
     }
 
     return 0;

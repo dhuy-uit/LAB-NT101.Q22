@@ -117,18 +117,25 @@ string decryptVigenere(const string& text, const string& key) {
 
 int main() {
     string ciphertext;
+
+    cout << "--- CHUONG TRINH PHA MA VIGENERE ---\n";
+    cout << "Nhap hoac dan Ciphertext vao day: \n";
     getline(cin, ciphertext);
 
     string cleanText = getLettersOnly(ciphertext);
-    if (cleanText.empty()) return 0;
+    if (cleanText.empty()) {
+        cout << "Khong tim thay ky tu hop le de phan tich.\n";
+        return 0;
+    }
 
     int keyLen = findKeyLength(cleanText);
     string key = findKey(cleanText, keyLen);
     string plaintext = decryptVigenere(ciphertext, key);
 
-    cout << "Key Length: " << keyLen << "\n";
-    cout << "Key: " << key << "\n";
-    cout << "Plaintext:\n" << plaintext << "\n";
+    cout << "\n--- KET QUA PHAN TICH ---\n";
+    cout << "[+] Chieu dai khoa tim duoc: " << keyLen << "\n";
+    cout << "[+] Khoa (Key) du doan: " << key << "\n";
+    cout << "[+] Ban ro (Plaintext) khoi phuc:\n" << plaintext << "\n";
 
     return 0;
 }
