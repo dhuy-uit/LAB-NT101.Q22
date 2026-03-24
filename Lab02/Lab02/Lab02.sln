@@ -3,7 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.14.36511.14 d17.14
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Task", "Task\Task.pyproj", "{FD02E072-3BA2-4E9F-AA98-A9934415F7C6}"
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Task2.1", "Task\Task2.1.pyproj", "{FD02E072-3BA2-4E9F-AA98-A9934415F7C6}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Task2.2", "Task2.2\Task2.2.pyproj", "{250E0AA5-2BAB-4CFD-9384-29029D12CC37}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Task2.3", "Task2.3\Task2.3.pyproj", "{853BD237-44B3-4EF4-89D2-3954DB8333B8}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Task2.4", "Task2.4\Task2.4.pyproj", "{FDC1B1F7-F8DC-4A07-AA92-06555F85DF26}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Task2.6", "Task2.6\Task2.6.pyproj", "{755BAEFC-5091-439F-95D8-A16D291F1450}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,6 +21,14 @@ Global
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{FD02E072-3BA2-4E9F-AA98-A9934415F7C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{FD02E072-3BA2-4E9F-AA98-A9934415F7C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{250E0AA5-2BAB-4CFD-9384-29029D12CC37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{250E0AA5-2BAB-4CFD-9384-29029D12CC37}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{853BD237-44B3-4EF4-89D2-3954DB8333B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{853BD237-44B3-4EF4-89D2-3954DB8333B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDC1B1F7-F8DC-4A07-AA92-06555F85DF26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDC1B1F7-F8DC-4A07-AA92-06555F85DF26}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{755BAEFC-5091-439F-95D8-A16D291F1450}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{755BAEFC-5091-439F-95D8-A16D291F1450}.Release|Any CPU.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

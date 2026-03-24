@@ -2,15 +2,15 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>fd02e072-3ba2-4e9f-aa98-a9934415f7c6</ProjectGuid>
+    <ProjectGuid>853bd237-44b3-4ef4-89d2-3954db8333b8</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Task.py</StartupFile>
+    <StartupFile>Task2.3.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
-    <Name>Task</Name>
-    <RootNamespace>Task</RootNamespace>
+    <Name>Task2.3</Name>
+    <RootNamespace>Task2.3</RootNamespace>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -21,7 +21,7 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Task.py" />
+    <Compile Include="Task2.3.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
